@@ -1,0 +1,417 @@
+[ {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"ff4d0aca-00c1-424a-a0f4-00b96c674e2c\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"ff4d0aca-00c1-424a-a0f4-00b96c674e2c\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"ed3fa37d-5d48-4179-953c-e62da5fee5ab\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"ed3fa37d-5d48-4179-953c-e62da5fee5ab\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"cbafd70a-a63b-4fb2-987f-e4ea600e468c\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"cbafd70a-a63b-4fb2-987f-e4ea600e468c\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"6cf7c519-da28-41e2-a9da-8d7cd8d3ab43\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"6cf7c519-da28-41e2-a9da-8d7cd8d3ab43\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"71c99a1f-71fb-4d0e-979e-91fd21f80253\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"71c99a1f-71fb-4d0e-979e-91fd21f80253\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"OMS_S_00087\",\"reqSysCode\":\"oms\",\"serialNumber\":\"5fcfa26e-a5d3-4dc2-a406-de0fe9df4410\",\"properties\":{}},\"body\":{\"serverResgionIds\":[\"0ed7dada-463d-440a-a3bb-cb7a3be016a8\",\"142266c3-129e-45c9-8b3c-b98f0e0e7f72\"]}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "237"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":[{\"serviceRegionId\":\"0ed7dada-463d-440a-a3bb-cb7a3be016a8\",\"regionName\":\"上海\"},{\"serviceRegionId\":\"142266c3-129e-45c9-8b3c-b98f0e0e7f72\",\"regionName\":\"明发园(重叠区域)\"}],\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"5fcfa26e-a5d3-4dc2-a406-de0fe9df4410\",\"serviceCode\":\"OMS_S_00087\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "338"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"906af4d0-0c20-45f8-9bf2-56411e69998d\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"906af4d0-0c20-45f8-9bf2-56411e69998d\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"b2ffebcc-1800-4f52-97cc-1815a2fc26fc\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"b2ffebcc-1800-4f52-97cc-1815a2fc26fc\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"c10d3754-edd1-4687-85f4-73f7a4a7e42b\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"c10d3754-edd1-4687-85f4-73f7a4a7e42b\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"OMS_S_00087\",\"reqSysCode\":\"oms\",\"serialNumber\":\"e2e46692-dd2d-49fa-81b0-2d24147ac1a0\",\"properties\":{}},\"body\":{\"serverResgionIds\":[\"0ed7dada-463d-440a-a3bb-cb7a3be016a8\",\"142266c3-129e-45c9-8b3c-b98f0e0e7f72\"]}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "237"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":[{\"serviceRegionId\":\"0ed7dada-463d-440a-a3bb-cb7a3be016a8\",\"regionName\":\"上海\"},{\"serviceRegionId\":\"142266c3-129e-45c9-8b3c-b98f0e0e7f72\",\"regionName\":\"明发园(重叠区域)\"}],\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"e2e46692-dd2d-49fa-81b0-2d24147ac1a0\",\"serviceCode\":\"OMS_S_00087\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "338"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"2868f807-3db9-4928-9190-7f7f1b5461ed\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"2868f807-3db9-4928-9190-7f7f1b5461ed\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"3836b1fc-904c-4cc8-9968-734ca19a9b71\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"3836b1fc-904c-4cc8-9968-734ca19a9b71\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"496ee308-303c-4a87-bab1-360339ad3994\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"496ee308-303c-4a87-bab1-360339ad3994\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"OMS_S_00087\",\"reqSysCode\":\"oms\",\"serialNumber\":\"4ba88f2e-dec2-4783-8d2e-4613848b3422\",\"properties\":{}},\"body\":{\"serverResgionIds\":[\"0ed7dada-463d-440a-a3bb-cb7a3be016a8\",\"142266c3-129e-45c9-8b3c-b98f0e0e7f72\"]}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "237"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":[{\"serviceRegionId\":\"0ed7dada-463d-440a-a3bb-cb7a3be016a8\",\"regionName\":\"上海\"},{\"serviceRegionId\":\"142266c3-129e-45c9-8b3c-b98f0e0e7f72\",\"regionName\":\"明发园(重叠区域)\"}],\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"4ba88f2e-dec2-4783-8d2e-4613848b3422\",\"serviceCode\":\"OMS_S_00087\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "338"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"MSHIP_S_00157\",\"reqSysCode\":\"oms\",\"serialNumber\":\"0d5b7053-e72b-4b48-a220-2339d22e1174\",\"properties\":{}},\"body\":{\"orgId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\"}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "187"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":{\"usersNo\":\"1701-640\",\"vipUsersId\":\"0015191a-2d84-e511-9d72-40a8f0257e10\",\"identityType\":14,\"createTime\":\"2015-11-20 09:32:19\",\"name\":\"安吉顺达物流有限公司\",\"mobile\":\"15968231115\",\"status\":true},\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"0d5b7053-e72b-4b48-a220-2339d22e1174\",\"serviceCode\":\"MSHIP_S_00157\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "364"
+    },
+    "status" : 200
+  }
+}, {
+  "request" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"header\":{\"serviceCode\":\"OMS_S_00087\",\"reqSysCode\":\"oms\",\"serialNumber\":\"5b5dfd58-6804-4703-84cc-99c4ea752d90\",\"properties\":{}},\"body\":{\"serverResgionIds\":[\"0ed7dada-463d-440a-a3bb-cb7a3be016a8\",\"142266c3-129e-45c9-8b3c-b98f0e0e7f72\"]}}",
+    "headers" : {
+      "Accept" : "application/json",
+      "Content-Type" : "application/json",
+      "User-Agent" : "Jersey/2.22.2 (HttpUrlConnection 1.8.0_60)",
+      "Host" : "xxx.com:8848",
+      "Connection" : "keep-alive",
+      "Content-Length" : "237"
+    },
+    "method" : "POST",
+    "uri" : "/esb",
+    "queries" : { }
+  },
+  "response" : {
+    "version" : "HTTP/1.1",
+    "content" : "{\"body\":[{\"serviceRegionId\":\"0ed7dada-463d-440a-a3bb-cb7a3be016a8\",\"regionName\":\"上海\"},{\"serviceRegionId\":\"142266c3-129e-45c9-8b3c-b98f0e0e7f72\",\"regionName\":\"明发园(重叠区域)\"}],\"header\":{\"reqSysCode\":\"oms\",\"returnCode\":2000000,\"serialNumber\":\"5b5dfd58-6804-4703-84cc-99c4ea752d90\",\"serviceCode\":\"OMS_S_00087\",\"properties\":{}}}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-MULE_ENCODING" : "UTF-8",
+      "Content-Length" : "338"
+    },
+    "status" : 200
+  }
+} ]

@@ -1,0 +1,44 @@
+[
+  {
+    "request": {
+      "uri": "/omsConfig/setConfig",
+      "method": "get"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "success": true
+      }
+    }
+  },
+  {
+    "request": {
+      "uri": "/basTransRoute/enable",
+      "method": "post"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "username": "5a337d",
+        "orgCode": "6542188"
+      }
+    }
+  },
+  {
+    "request": {
+      "uri": "/esb"
+    },
+    "response": {
+      "proxy": {
+        "url": "http://192.168.2.65:29998/esb",
+        "failover": "mock/failover.json"
+      }
+    }
+  }
+]

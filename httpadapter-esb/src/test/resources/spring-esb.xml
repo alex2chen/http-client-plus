@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+       <bean id="clientConfiguration" class="com.gillion.esb.api.configuration.SimpleClientConfiguration">
+              <property name="reqSysCode" value="oms"/>
+              <property name="clientPlugins">
+                     <list>
+                            <bean class="com.gillion.esb.api.plugins.version.VersionClientPlugin">
+                                   <property name="versionConfigPath" value="D://version-config.properties"/>
+                            </bean>
+                     </list>
+              </property>
+              <property name="clientRequestExecutor">
+                     <bean class="com.gillion.esb.api.client.executor.http.HttpRequestExecutor">
+                            <property name="executorConfiguration">
+                                   <bean class="com.gillion.esb.api.client.executor.http.HttpRequestExecutorConfiguration">
+                                          <property name="connectTimeout" value="120000"/>
+                                          <property name="readTimeout" value="120000"/>
+                                          <property name="url" value="http://xxx.com:8848/esb"/>
+                                   </bean>
+                            </property>
+                     </bean>
+              </property>
+       </bean>
+       <bean id="esbClient" class="com.gillion.esb.api.client.ESBPoolClient">
+              <property name="clientConfiguration" ref="clientConfiguration"/>
+              <property name="maxTotal" value="40"/>
+       </bean>
+       <bean id="outerEsbClient" name="outerEsbClient" class="com.gillion.esb.api.client.ESBPoolClient">
+              <property name="clientConfiguration">
+                     <bean class="com.gillion.esb.api.configuration.SimpleClientConfiguration">
+                            <property name="reqSysCode" value="oms"/>
+                            <property name="clientPlugins">
+                                   <list>
+                                          <bean class="com.gillion.esb.api.plugins.version.VersionClientPlugin">
+                                                 <property name="versionConfigPath" value="D://version-config.properties"/>
+                                          </bean>
+                                   </list>
+                            </property>
+                            <property name="clientRequestExecutor">
+                                   <bean class="com.gillion.esb.api.client.executor.http.HttpRequestExecutor">
+                                          <property name="executorConfiguration">
+                                                 <bean class="com.gillion.esb.api.client.executor.http.HttpRequestExecutorConfiguration">
+                                                        <property name="connectTimeout" value="120000"/>
+                                                        <property name="readTimeout" value="120000"/>
+                                                        <property name="url" value="http://xxx.com:8848/esb"/>
+                                                 </bean>
+                                          </property>
+                                   </bean>
+                            </property>
+                     </bean>
+              </property>
+              <property name="maxTotal" value="20"/>
+       </bean>
+</beans>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <bean class="com.github.middleware.httpadapter.spring.SpringContextHoder"/>
+
+    <import resource="spring-http.xml"></import>
+    <import resource="spring-esb.xml"></import>
+    <!-- 设置扫描对象 -->
+    <bean id="httpAdapterPostProcessor" class="com.github.middleware.httpadapter.spring.HttpAdapterPostProcessor">
+        <property name="annotationClz"
+                  value="com.github.middleware.httpadapter.core.annotation.KxRequestAgent"></property>
+        <property name="basePackages">
+            <list>
+                <value>com.github.middleware.httpadapter</value>
+            </list>
+        </property>
+        <property name="driverDelegates">
+            <list>
+                <value>com.gillion.esb.api.client.ESBClient</value>
+                <value>com.github.middleware.httpadapter.httpclient.HttpClient</value>
+            </list>
+        </property>
+        <property name="startConfig" ref="commonConfig"/>
+    </bean>
+    <bean id="commonConfig" class="com.github.middleware.httpadapter.esb.EsbStartConfig">
+        <property name="httpUrlPrefix" value="dev-"></property>
+    </bean>
+</beans>
